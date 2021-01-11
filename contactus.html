@@ -70,21 +70,32 @@
             /* flex-direction: column-reverse; */
             margin:5px;
             width:250px;
+          height:250px
         }
-        .a{
+        .a1{
             position: relative;;
             top:0px;
         }
-        /* .a2{
+        .a2{
             position:absolute;
-            top:30px;w
-        } */
+            top:30px;
+        } 
+    .a3{
+            position: relative;;
+            top:40px;
+    }
+         .a4{
+            position: relative;;
+            top:50px;
+        }
         input{
             background-attachment:green;
             border-color:cornflowerblue;
         }
         input::after{
-            content:"*" ;
+          content:"*" ;
+          input::after{content:"*";
+          }
         }
 
         }
@@ -101,11 +112,11 @@
     <input type="password" name="" id="">
 </div> 
 <div>
-    <label class="a2" for="" >email id</label>
+    <label class="a3" for="" >email id</label>
     <input type="email" name="" id="">
       </div>
       <div>
-    <label class="a2" for="" >subject</label>
+    <label class="a4" for="" >subject</label>
     <input type="message"="" id="">
 </div>
  <div>
